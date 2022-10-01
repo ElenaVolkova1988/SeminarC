@@ -26,4 +26,24 @@ while(current <= number)
     current++;
 }*/
  
+ /*253 % 10 -> 3
+ 253 % 100 -> 53
+ 253 % 1000 -> 253
+
+ 253 / 10 -> 25
+ 253 / 100 -> 2
+ 253 / 1000 -> 0*/
+
+ Console.Write ("Input three-digit number :");
+ int n = Convert.ToInt32 (Console.ReadLine());
+
+ if (n/100>0)
+ {
+    int lastDigit = n%10;
+    Console.WriteLine ($"Last digit of {n} is {lastDigit}");
+ }
+else 
+{
+    Console.WriteLine ("Uncorrent input!");
+}
  
