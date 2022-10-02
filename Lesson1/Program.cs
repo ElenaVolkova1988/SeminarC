@@ -32,7 +32,8 @@ while(current <= number)
 
  253 / 10 -> 25
  253 / 100 -> 2
- 253 / 1000 -> 0*/
+ 253 / 1000 -> 0
+ */
 
  Console.Write ("Input three-digit number :");
  int n = Convert.ToInt32 (Console.ReadLine());
